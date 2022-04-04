@@ -1,0 +1,20 @@
+United States	161	63	42	Kilauea, Pavlof, Great Sitkin, Semisopochnoi
+Japan	122	62	43	Aira, Suwanosejima
+Indonesia	121	74	58	Merapi, Lewotolok, Karangetang, Semeru, Ibu, Dukono
+Russia	117	49	33	Karymsky, Bezymianny, Sheveluch
+Chile	92	34	19	Nevados de Chillan, Villarrica
+Ethiopia	53	10	5	Erta Ale
+Papua New Guinea	47	20	15	Kadovar, Langila, Manam, Bagana
+Philippines	38	15	7	
+Mexico	37	9	7	Popocatepetl
+Argentina	36	6	3	
+Ecuador	35	17	11	Wolf, Sangay, Reventador
+Iceland	34	14	9	
+New Zealand	25	9	8	
+Canada	24	1	0	
+Guatemala	23	7	5	Fuego, Santa Maria
+Tonga	21	15	11	Tofua
+Kenya	21	5	0	
+El Salvador	20	5	3	
+France	20	11	9	
+Antarctica	19	5	2	Erebus
