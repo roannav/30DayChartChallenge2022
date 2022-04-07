@@ -1,0 +1,11 @@
+cycler==0.11.0
+fonttools==4.31.2
+kiwisolver==1.4.2
+matplotlib==3.5.1
+numpy==1.22.3
+packaging==21.3
+Pillow==9.1.0
+pyparsing==3.0.7
+python-dateutil==2.8.2
+pywaffle==0.6.4
+six==1.16.0
