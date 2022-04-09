@@ -43,6 +43,7 @@ fig, ax = joyplot(df, by='Month', column='Value',
     range_style='own',  # horizontal line under the ridgeline is only visible
                         # where the density is non-zero; 
                         # it doesn't span the whole x-axis
+    tails=0,            # do not extend the tails for aesthetics
     figsize = (10,6)    # dimensions of the figure in inches
 )
 plt.xlabel("PM 2.5")
@@ -54,11 +55,11 @@ plt.xlabel("PM 2.5")
 # xytext: location of the text
 
 plt.annotate('"Peak fire" in San Bernardino, CA\non 6/28/2021?', 
-             xy=(200, 0.5), xytext=(230, 0.55),
+             xy=(175, 0.5), xytext=(205, 0.55),
              arrowprops=dict(facecolor='black', shrink=0.05))
 
 plt.annotate('Unknown cause', 
-             xy=(320, 0.35), xytext=(250, 0.4),
+             xy=(280, 0.35), xytext=(205, 0.4),
              arrowprops=dict(facecolor='black', shrink=0.05))
 
 #move main title up
@@ -69,7 +70,7 @@ plt.subplots_adjust(left =.08)
 plt.subplots_adjust(bottom=.15)
 
 # description text
-plt.text(90,
+plt.text(75,
     0.75,
     "Fine particulate matter (PM 2.5) is an air pollutant.  At high levels,\nit makes the air appear hazy.  High exposure in individuals can\naffect lung function and worsen asthma and heart disease.\nPM 2.5 is caused by vehicle exhausts, burning of fuels, fires,\npower plants, volcanic eruptions and tobacco smoke.",
     fontsize=12)
@@ -82,6 +83,6 @@ plt.text(0,
     fontsize=10)
 
 
-plt.savefig('fig.png')  # savefig must happen before show()
+plt.savefig('day08_mountains.png')  # savefig must happen before show()
 #plt.show()
 
