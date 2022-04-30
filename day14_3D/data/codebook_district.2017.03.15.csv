@@ -1,0 +1,29 @@
+variable,definition
+LEAID,Unique district identifier
+NAME,District name
+CITY,City where district office is located
+STATE,State where district office is located
+MEMBER_alt,Number of students in alternative schools
+revised,Alternative school enrollment has been adjusted to reflect additional reporting by ProPublica (TRUE/FALSE)
+hasReassignedSchools,District includes schools (regardless of alternative status) that were reassigned geographically into the district (TRUE/FALSE)
+altRatio_99,"Per capita alternative school enrollment in 1999 (For a small number of districts that opened after 1999, measure is for the earliest available year. Denominator is the non-elementary enrollment of the district.)"
+altRatio,Per capita alternative school enrollment (Denominator is the non-elementary population of the district.)
+altRatio_growth,"Percentage point growth in alternative school enrollment, 1999-2000 to 2013-14"
+pupMONEY_reg,"Total per pupil state and local funding (regular, non-elementary schools)"
+pupMONEY_alt,Total per pupil state and local funding (alternative schools)
+pdiff_pupMONEY,Percent difference between per pupil spending at alternative and regular schools
+hasCounc_reg,"Percent of schools that have a counselor (regular, non-elementary schools)"
+hasCounc_alt,Percent of schools that have a counselor (alternative schools)
+pdiff_hasCounc,Percent difference between the percent of alternative schools that have a counselor and the percent of regular schools that do
+puptch_reg,Average student teacher ratio (regular non-elementary schools)
+puptch_alt,Average student teacher ratio (alternative schools)
+pdiff_puptch,Percent difference between the student teacher ratio at alternative and regular schools
+TEACH_FYSY_RATIO_reg,"Percent of teachers in their first or second year of teaching (regular, non-elementary schools)"
+TEACH_FYSY_RATIO_alt,Percent of teachers in their first or second year of teaching (alternative schools)
+pdiff_TEACH_FYSY_RATIO,Percent difference between the percent of teachers in their first or second year of teaching at alternative and regular schools
+TEACH_ABSENT_RATIO_reg,"Percent of teachers absent more than 10 school days in the school year (regular, non-elementary schools)"
+TEACH_ABSENT_RATIO_alt,Percent of teachers absent more than 10 school days in the school year (alternative schools)
+pdiff_TEACH_ABSENT_RATIO,Percent difference between the percent of absentee teachers at alternative and regular schools
+gradRate_reg,"4 year adjusted cohort graduation rate (regular, non-elementary schools)"
+gradRate_alt,4 year adjusted cohort graduation rate (alternative schools)
+ppdiff_gradRate,Percentage point difference between the graduation rate at alternative schools and regular schools
